@@ -2,18 +2,17 @@
 
 #print("Hello my name is Raj")
 
-#Ctemp = 38.4
-#Ftemp = (Ctemp * 1.8) + 32
-#print(Ctemp)
-#print(Ftemp)
+Ctemp = 38.4
+Ftemp = (Ctemp * 1.8) + 32
+print (Ctemp, "Celsius")
+print (Ftemp, "Fahrenheit")
 
 runs = 48426
 battedtimes = 1014
 notout = 162
 matches = 609
 battingavg = runs / (battedtimes - 162)
-print(round(battingavg,2))
-
+print("Batting Average of", round(battingavg,2))
 
 
 g1 = 113
