@@ -1,0 +1,6 @@
+runs = 48426
+battedtimes = 1014
+notout = 162
+matches = 609
+battingavg = runs / (battedtimes - 162)
+print(round(battingavg,2))
