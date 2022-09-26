@@ -1,0 +1,8 @@
+g1 = 113
+g2 = 175
+g3 = 12
+total = g1 + g2 + g3
+leftovergroup = total % 24
+fullgroup = (total - (total % 24)) / 24
+print(fullgroup, "full groups")
+print(leftovergroup, "students left over")
